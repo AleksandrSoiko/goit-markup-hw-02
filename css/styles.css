@@ -26,9 +26,36 @@
     font-family: roboto;
 }
 
-/* header */
+.link {
+    text-decoration: none;
+}
 
+
+.link:focus,
+.link:active,
+.link:hover {
+    color: var(--blue-txt-color);
+}
+
+/* =======header===== */
+.link.link-current {
+    color: var(--blue-txt-color);
+}
+
+.header-logo
+
+
+
+.btn {
+    font-family: inherit;
+    color: currentColor;
+}
+/* header */
+.logo-txt {
+color: var(--blue-txt-color);
+}
 
 .contact-address {
     font-style: normal;
 }
+
