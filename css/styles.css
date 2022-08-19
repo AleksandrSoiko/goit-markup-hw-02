@@ -16,46 +16,76 @@
   --blue-btn-color: #2196f3;
 
   /* font root selector */
-  --main-font: roboto , sans-serif;
-  --secondary-font: Raleway , sans-serif;
+  --main-font: roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
 }
 
 /* ======================================= */
 /* main page text selector */
 .page {
-    font-family: roboto;
+  font-family: roboto;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
+  color: var(--black-txt-color);
 }
 
-
+.link:active {color: orange;}
 .link:focus,
-.link:active,
 .link:hover {
-    color: var(--blue-txt-color);
+  color: var(--blue-txt-color);
+}
+
+.list {
+    list-style-type: none;
 }
 
 /* =======header===== */
 .link.link-current {
+  color: var(--blue-txt-color);
+}
+
+.btn {
+  font-family: inherit;
+  color: currentColor;
+}
+.btn:active {color: orange;}
+.btn:hover,
+.btn:focus {
+  color: var(--light-txt-color);
+  background-color: var(--blue-btn-color);
+}
+/* header */
+/* logo style */
+.header-logo {
+  color: var(--black-txt-color);
+}
+
+.header-logo, 
+.header-logo:active
+.header-logo:focus,
+.header-logo:hover {
+  color: var(--black-txt-color);
+}
+
+.link .logo-txt {
+  color: #2196f3;
+}
+/* header contact style */
+.link.link-contact{
+    color: var(--light-txt-color);
+}
+
+.link.link-contact:active {color: orange;}
+.link.link-contact:focus,
+.link.link-contact:hover {
     color: var(--blue-txt-color);
 }
 
-.header-logo
+/* ===hero section=== */
 
-
-
-.btn {
-    font-family: inherit;
-    color: currentColor;
-}
-/* header */
-.logo-txt {
-color: var(--blue-txt-color);
-}
 
 .contact-address {
-    font-style: normal;
+  font-style: normal;
 }
-
