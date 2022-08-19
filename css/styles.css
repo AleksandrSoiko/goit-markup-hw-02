@@ -114,7 +114,6 @@
   background-color: var(--blue-btn-color);
   color: var(--white-color);
   font-weight: 700;
-  font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
 }
@@ -133,27 +132,21 @@
   font-size: 0px;
 }
 .advantage {
-  color: var(--main-txt-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .adv-text {
   color: var(--light-txt-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 
 .second-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   letter-spacing: 0.03em;
-  color: var(--main-txt-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -163,7 +156,6 @@
   background-color: var(--light-bcg-color);
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   letter-spacing: 0.03em;
@@ -178,8 +170,6 @@
 
 .team-position {
   color: var(--light-txt-color);
-  font-weight: 400;
-  font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
 }
@@ -215,7 +205,6 @@
 .link-address {
   color: var(--white-color);
   font-weight: 400;
-  font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
@@ -223,7 +212,6 @@
 .link-item {
   color: var(--grey-txt-color);
   font-weight: 400;
-  font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
@@ -231,6 +219,9 @@
 /* =========================================== */
 /* =============== portfolio ================= */
 
+.section > .main-title {
+font-size: 0px;
+}
 .list-item > .btn {
   background-color: var(--light-bcg-color);
   font-weight: 500;
@@ -246,7 +237,6 @@
 }
 .link > .section-title {
   color: var(--main-txt-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
@@ -260,8 +250,8 @@
   letter-spacing: 0.03em;
 }
 
-.section-title:active,
-.section-title:hover,
-.section-title:focus {
+.link > .section-title:active,
+.link > .section-title:hover,
+.link > .section-title:focus {
     color: var(--blue-txt-color);
 }
