@@ -23,7 +23,7 @@
 /* ======================================= */
 /* main page text selector */
 .page {
-  font-family: roboto;
+  font-family: var(--main-font);
   color: var(--main-txt-color);
 }
 
@@ -71,7 +71,7 @@
 /* logo style */
 .header-logo {
   color: var(--black-txt-color);
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -183,7 +183,7 @@
 .footer-logo {
   text-decoration: none;
   color: var(--white-color);
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
