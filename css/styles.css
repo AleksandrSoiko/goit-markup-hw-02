@@ -259,3 +259,9 @@
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
 }
+
+.section-title:active,
+.section-title:hover,
+.section-title:focus {
+    color: var(--blue-txt-color);
+}
