@@ -220,7 +220,7 @@
 /* =============== portfolio ================= */
 
 .section > .main-title {
-font-size: 0px;
+  font-size: 0px;
 }
 .list-item > .btn {
   background-color: var(--light-bcg-color);
@@ -253,5 +253,5 @@ font-size: 0px;
 .link > .section-title:active,
 .link > .section-title:hover,
 .link > .section-title:focus {
-    color: var(--blue-txt-color);
+  color: var(--blue-txt-color);
 }
